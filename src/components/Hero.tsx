@@ -29,16 +29,16 @@ export default function Hero() {
 
             <a
               href="#contact"
-              className="w-full sm:w-auto inline-flex justify-center items-center px-8 py-4 bg-slateGray hover:bg-slate-800 text-crispWhite rounded-md font-bold text-lg transition-colors"
+              className="group w-full sm:w-auto inline-flex justify-center items-center px-8 py-4 bg-slateGray hover:bg-slate-800 text-crispWhite rounded-md font-bold text-lg transition-colors"
             >
               Get an Estimate
-              <ArrowRight className="w-5 h-5 ml-2" />
+              <ArrowRight className="w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
             </a>
           </div>
 
           <div className="mt-12 flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-8 text-sm text-gray-500 font-medium">
             <div className="flex items-center">
-              <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
+              <span className="w-2 h-2 rounded-full bg-green-500 mr-2 animate-pulse"></span>
               Available for Same Day Service
             </div>
             <div className="flex items-center">
