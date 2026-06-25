@@ -1,0 +1,6 @@
+## 2026-06-07 - Executive Positioning UI/UX **Learning:** Explicitly stating engineer-led credentials requires dedicated layout emphasis to capture the 'authority' branding effectively. **Action:** Next time, ensure specialized role details (like Mechanical Engineer, APEGA EIT) get a dedicated 'About' section block or visual highlight, rather than relying strictly on the hero section.
+## 2026-06-09 - Interactive UI Enhancements **Learning:** Simple Tailwind utility classes like group-hover and animate-pulse effectively increase visual engagement without adding complex JavaScript logic. **Action:** Next time, default to utilizing standard Tailwind hover states and subtle transform properties for CTAs and interactive cards.
+
+## 2025-06-25 - Semantic Navigation
+**Learning:** Using semantic buttons replaces explicit tabIndex handling, while custom modals require useEffect for key mapping.
+**Action:** Default to button tags for interactables.
